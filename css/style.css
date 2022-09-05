@@ -1,0 +1,53 @@
+/* GENERAL */
+*{
+  margin: 0;  
+}
+
+p{
+  text-align: justify;
+}
+
+.container{
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* HEADER */
+header{
+  text-align: center;
+  background-color: #EDEDED;
+}
+
+header h1{
+  margin: 15px;
+}
+
+/* separando i selettori con la virgolo l'istruzione interessa entrambi i selettori */
+header, main{
+  border-bottom: 2px solid #C77803;
+}
+
+/* MAIN */
+main{
+  padding: 20px;
+}
+
+.content{
+  padding-bottom: 20px;
+}
+
+/* separando i selettori con lo spazio seleziono il figlio */
+.content h2{
+  color: #C77803;
+}
+.content h3{
+  padding: 15px 0;
+}
+
+/* FOOTER */
+footer{
+  text-align: center;
+  padding: 10px;
+  font-size: 0.8rem;
+}
